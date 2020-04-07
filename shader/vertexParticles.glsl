@@ -18,7 +18,7 @@ void main() {
 
   vAlpha = smoothstep(0., 0.25, percent) - smoothstep(0.75, 1., percent);
 
-  float dir = angle + sin(time / 10.);
+  float dir = angle + sin(time / 50.);
 
   newPos.x += cos(dir) * current * 0.15;
   newPos.y += sin(dir) * current * 0.15;
@@ -34,6 +34,6 @@ void main() {
   newPos.y += sin(theta) * strength * 0.5;
 
   vec4 mvPosition = modelViewMatrix * vec4(newPos, 1.);
-  gl_PointSize = 10. * ( 1. / - mvPosition.z );
+  gl_PointSize = 40. * ( 1. / - mvPosition.z );
   gl_Position = projectionMatrix * mvPosition;
 }

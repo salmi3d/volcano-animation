@@ -135,7 +135,7 @@ class App {
       new THREE.PlaneGeometry(10, 10),
       new THREE.MeshBasicMaterial({
         transparent: true,
-        color: 0x0000ff,
+        color: 0x000000,
         opacity: 0.01
       })
     )

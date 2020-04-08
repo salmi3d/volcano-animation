@@ -1,6 +1,6 @@
 # 🌋 Volcano animation
 
-Volcano animation based on [Three.js](https://threejs.org/)
+Volcano animation is built with [Three.js](https://threejs.org/)
 
 ## Demo
 
@@ -8,7 +8,7 @@ Demo lives here: [https://volcano-animation.salmi3d.now.sh](https://volcano-anim
 
 ## Origin
 
-Yuri Artyukh
+Initial implementation by [Yuri Artyukh](https://twitter.com/akella)
 
 ## How to use
 
